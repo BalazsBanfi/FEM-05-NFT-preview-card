@@ -27,7 +27,6 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
-
 main {
   width: 375px;
   padding: 1rem;
@@ -49,23 +48,21 @@ main {
   overflow: hidden;
 }
 
-
 /****************
 ***Img section***
 *****************/
 
+
 #avatar {
-  background-color: white;
+  max-width: 100%;
+  border-radius: 10px;
 }
 
 #avatar:hover {
-  opacity: 0.5;
+  background-color: white;
+  opacity: 1;
 }
 
-
-
-/***************************
-***Summary section - main***
-****************************/
-
-
+/*****************
+***Text section***
+******************/
