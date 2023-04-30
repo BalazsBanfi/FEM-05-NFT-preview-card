@@ -1,10 +1,10 @@
 :root {
   --softBlue: hsl(215, 51%, 70%);
   --cyan: hsl(178, 100%, 50%);
-  
-  --VeryDarkBlue-mainBg: hsl(217, 54%, 11%);
-  --VeryDarkBlue-cardBg: hsl(216, 50%, 16%);
-  --VeryDarkBlue-line: hsl(215, 32%, 27%);
+
+  --veryDarkBlue-mainBg: hsl(217, 54%, 11%);
+  --veryDarkBlue-cardBg: hsl(216, 50%, 16%);
+  --veryDarkBlue-line: hsl(215, 32%, 27%);
   --white: hsl(0, 0%, 100%);
 }
 
@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 /*****************
@@ -20,10 +21,51 @@
 
 body {
   min-height: 100vh;
-  background: var(--light-grey);
+  background: var(--veryDarkBlue-mainBg);
   display: grid;
   place-items: center;
-  font-family: 'Outfit', sans-serif;
-  padding: 100px 0;
-  position: relative;
+  font-family: "Outfit", sans-serif;
 }
+
+
+main {
+  width: 375px;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+}
+
+/*******************
+***Flex container***
+********************/
+
+.container {
+  max-width: 100%;
+  padding: 1rem;
+  background: var(--veryDarkBlue-cardBg);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+/****************
+***Img section***
+*****************/
+
+#avatar {
+  background-color: white;
+}
+
+#avatar:hover {
+  opacity: 0.5;
+}
+
+
+
+/***************************
+***Summary section - main***
+****************************/
+
+
