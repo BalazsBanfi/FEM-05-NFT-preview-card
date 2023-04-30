@@ -1,6 +1,6 @@
 # Frontend Mentor - NFT preview card component solution
 
-This is a solution to the [Product preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [NFT preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -19,14 +19,14 @@ This is a solution to the [Product preview card challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-![Screenshot](./images/screenshotMobile.jpg)
-![Screenshot](./images/screenshotDesktop.jpg)
+![Mobile screenshot](./images/screenshotMobile.jpg)
+![Desktop screenshot](./images/screenshotDesktop.jpg)
 
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/BalazsBanfi/FEM-04-Order-summary)
-- Live Site URL: [Live site url](https://balazsbanfi.github.io/FEM-04-Order-summary/)
+- Solution URL: [Solution URL](https://github.com/BalazsBanfi/FEM-05-NFT-preview-card)
+- Live Site URL: [Live site url](https://balazsbanfi.github.io/FEM-05-NFT-preview-card/)
 
 ## My process
 
@@ -46,7 +46,7 @@ I would like to be comfortable with responsive web design techniques and want to
 
 ### Useful resources
 
-- [Example resource 1](https://www.kevinpowell.co/) - Kevin Powell helped me in responsive techniques. I really liked his teaching methods and will use it going forward.
+- [Homepage of Kevin Powell](https://www.kevinpowell.co/) - Kevin Powell helped me in responsive techniques. I really liked his teaching methods and will use it going forward.
 
 
 ## Author

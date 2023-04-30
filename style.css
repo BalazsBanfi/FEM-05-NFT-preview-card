@@ -1,10 +1,11 @@
 :root {
-  --bright-orange: hsl(31, 77%, 52%);
-  --dark-cyan: hsl(184, 100%, 22%);
-  --very-dark-cyan: hsl(179, 100%, 13%);
-
-  --opac-white: hsla(0, 0%, 100%, 0.75);
-  --light-grey: hsl(0, 0%, 95%);
+  --softBlue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  
+  --VeryDarkBlue-mainBg: hsl(217, 54%, 11%);
+  --VeryDarkBlue-cardBg: hsl(216, 50%, 16%);
+  --VeryDarkBlue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
 }
 
 * {
@@ -13,16 +14,16 @@
   box-sizing: border-box;
 }
 
-/*
-    BODY SECTION
-*/
+/*****************
+***Body section***
+******************/
 
 body {
   min-height: 100vh;
   background: var(--light-grey);
   display: grid;
   place-items: center;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Outfit', sans-serif;
   padding: 100px 0;
   position: relative;
 }
