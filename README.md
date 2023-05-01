@@ -25,8 +25,8 @@ This is a solution to the [NFT preview card challenge on Frontend Mentor](https:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/BalazsBanfi/FEM-05-NFT-preview-card)
-- Live Site URL: [Live site url](https://balazsbanfi.github.io/FEM-05-NFT-preview-card/)
+- Solution URL: [Github](https://github.com/BalazsBanfi/FEM-05-NFT-preview-card)
+- Live Site URL: [Github page](https://balazsbanfi.github.io/FEM-05-NFT-preview-card/)
 
 ## My process
 

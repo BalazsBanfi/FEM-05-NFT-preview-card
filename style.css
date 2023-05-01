@@ -21,6 +21,7 @@
 
 body {
   min-height: 100vh;
+  padding: 0;
   background: var(--veryDarkBlue-mainBg);
   display: grid;
   place-items: center;
@@ -28,8 +29,10 @@ body {
 }
 
 main {
+  min-height: 100vh;
   width: 375px;
-  padding: 1rem;
+  margin: 0;
+  padding: 1.5rem;
   display: grid;
   place-items: center;
 }
@@ -40,7 +43,7 @@ main {
 
 .container {
   max-width: 100%;
-  padding: 1rem;
+  padding: 1.5rem;
   background: var(--veryDarkBlue-cardBg);
   display: flex;
   flex-direction: column;
@@ -52,17 +55,78 @@ main {
 ***Img section***
 *****************/
 
+#avatarBack {
+  background-color: white;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
 
 #avatar {
   max-width: 100%;
-  border-radius: 10px;
+  max-height: 100%;
 }
 
 #avatar:hover {
-  background-color: white;
-  opacity: 1;
+  opacity: 0.3;
 }
 
 /*****************
 ***Text section***
 ******************/
+
+.sectionText {
+  padding: 0.75rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionText > * {
+  margin: 0.75rem 0;
+}
+
+.sectionText > h1 {
+  font-size: 1.4rem;
+  color: var(--white);
+}
+
+.promote {
+  font-size: 1rem;
+  color: var(--softBlue);
+}
+
+/****************
+***Eth section***
+*****************/
+
+p.eth {
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--cyan);
+}
+
+p.eth::before {
+  content: url("./images/icon-ethereum.svg");
+  position: relative;
+  top: 3px;
+  right: 8px;
+}
+
+.eth span {
+  font-size: 1rem;
+  color: var(--softBlue);
+  float: right;
+}
+
+.eth span::before {
+  content: url("./images/icon-clock.svg");
+  position: relative;
+  top: 3px;
+  right: 5px;
+}
+
+/*************
+***Creation***
+**************/
