@@ -12,7 +12,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 /*****************
@@ -130,3 +129,28 @@ p.eth::before {
 /*************
 ***Creation***
 **************/
+
+p.creation {
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  color: var(--softBlue);
+  border-top: 1px solid var(--softBlue);
+}
+
+.creation:before {
+  background-image: url("./images/image-avatar.png");
+  background-size: 35px 35px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  content: "";
+  position: relative;
+  top: 15px;
+  right: 8px;
+}
+
+.creation span {
+  color: var(--white);
+}
